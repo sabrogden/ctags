@@ -1018,7 +1018,7 @@ char *mio_gets (MIO *mio, char *s, size_t size)
 			{
 				s[i] = (char)buf[pos];
 				pos++;
-				if (s[i] == '\n')
+				if (s[i] == '\r' || s[i] == '\n')
 				{
 					i++;
 					newline = true;

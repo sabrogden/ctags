@@ -112,7 +112,8 @@ enum eKeywordId {
 	KEYWORD_OUT, KEYWORD_PRAGMA, KEYWORD_REAL, KEYWORD_SCOPE,
 	KEYWORD_SUPER, KEYWORD_TRUE, KEYWORD_TYPEID, KEYWORD_TYPEOF,
 	KEYWORD_UBYTE, KEYWORD_UCENT, KEYWORD_UNITTEST, KEYWORD_VERSION,
-	KEYWORD_WCHAR, KEYWORD_WITH
+	KEYWORD_WCHAR, KEYWORD_WITH,
+	KEYWORD_GUID
 };
 typedef int keywordId; /* to allow KEYWORD_NONE */
 
@@ -2260,6 +2261,7 @@ static void processToken (tokenInfo *const token, statementInfo *const st)
 				skipStatement (st);
 			break;
 		case KEYWORD_INT:       st->declaration = DECL_BASE;            break;
+		case KEYWORD_GUID:      st->declaration = DECL_BASE;            break;
 		case KEYWORD_INTEGER:   st->declaration = DECL_BASE;            break;
 		case KEYWORD_INTERFACE: processInterface (st);                  break;
 		case KEYWORD_LOCAL:     setAccess (st, ACCESS_LOCAL);           break;

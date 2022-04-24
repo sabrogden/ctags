@@ -99,7 +99,8 @@ enum eKeywordId {
 	KEYWORD_OUT, KEYWORD_PRAGMA, KEYWORD_REAL, KEYWORD_SCOPE,
 	KEYWORD_SUPER, KEYWORD_TRUE, KEYWORD_TYPEID, KEYWORD_TYPEOF,
 	KEYWORD_UBYTE, KEYWORD_UCENT, KEYWORD_UNITTEST, KEYWORD_VERSION,
-	KEYWORD_WCHAR, KEYWORD_WITH
+	KEYWORD_WCHAR, KEYWORD_WITH,
+	KEYWORD_GUID
 };
 typedef int keywordId; /* to allow KEYWORD_NONE */
 
@@ -488,6 +489,8 @@ static const keywordDesc KeywordTable [] = {
      { "wchar_t",         KEYWORD_WCHAR_T,         { 1, 0, 0 } },
      { "while",           KEYWORD_WHILE,           { 1, 1, 1 } },
      { "with",            KEYWORD_WITH,            { 0, 1, 0 } },
+	 { "guid",            KEYWORD_GUID,            { 1, 1, 0 } },
+	 { "Guid",            KEYWORD_GUID,            { 1, 1, 0 } },
 };
 
 /*

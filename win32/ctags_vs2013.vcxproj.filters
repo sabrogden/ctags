@@ -48,9 +48,6 @@
     <ClCompile Include="..\gnulib\fnmatch.c">
       <Filter>Source Files\gnulib</Filter>
     </ClCompile>
-    <ClCompile Include="..\gnulib\malloc\dynarray_resize.c">
-      <Filter>Source Files\gnulib\malloc</Filter>
-    </ClCompile>
     <ClCompile Include="..\gnulib\mempcpy.c">
       <Filter>Source Files\gnulib</Filter>
     </ClCompile>
@@ -620,6 +617,9 @@
     </ClCompile>
     <ClCompile Include="..\win32\mkstemp\mkstemp.c">
       <Filter>Source Files\win32\mkstemp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gnulib\malloc\dynarray_resize.c">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
