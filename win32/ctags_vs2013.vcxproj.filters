@@ -905,4 +905,7 @@
       <Filter>Resource Files</Filter>
     </ResourceCompile>
   </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="ctags.exe.manifest" />
+  </ItemGroup>
 </Project>

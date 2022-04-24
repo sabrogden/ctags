@@ -7,7 +7,7 @@
 //
 // Generated from the TEXTINCLUDE 2 resource.
 //
-#include "winresrc.h"
+#include "winres.h"
 
 /////////////////////////////////////////////////////////////////////////////
 #undef APSTUDIO_READONLY_SYMBOLS
@@ -52,14 +52,15 @@ END
 
 1                       RT_MANIFEST             "ctags.exe.manifest"
 
+
 /////////////////////////////////////////////////////////////////////////////
 //
 // Version
 //
 
 VS_VERSION_INFO VERSIONINFO
- FILEVERSION 5,9,0,0
- PRODUCTVERSION 5,9,0,0
+ FILEVERSION 5,10,0,0
+ PRODUCTVERSION 5,10,0,0
  FILEFLAGSMASK 0x3fL
 #ifdef _DEBUG
  FILEFLAGS 0x1L
@@ -76,12 +77,12 @@ BEGIN
         BEGIN
             VALUE "CompanyName", "Universal Ctags Team"
             VALUE "FileDescription", "Universal Ctags"
-            VALUE "FileVersion", "5.9.0.0"
+            VALUE "FileVersion", "5.10.0.0"
             VALUE "InternalName", "ctags.exe"
-            VALUE "LegalCopyright", "Copyright \251 2015-2022 Universal Ctags Team"
+            VALUE "LegalCopyright", "Copyright © 2015-2022 Universal Ctags Team"
             VALUE "OriginalFilename", "ctags.exe"
             VALUE "ProductName", "Universal Ctags"
-            VALUE "ProductVersion", "5.9.0.0"
+            VALUE "ProductVersion", "5.10.0.0"
         END
     END
     BLOCK "VarFileInfo"
